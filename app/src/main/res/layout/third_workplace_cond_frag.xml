@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <com.example.ccxx.testtofd.TextButton
+        android:id="@+id/workpiece_thickness"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/right_no_color"/>
+
+    <com.example.ccxx.testtofd.TextButton
+        android:id="@+id/weld_width"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/right_no_color"/>
+
+    <com.example.ccxx.testtofd.TextButton
+        android:id="@+id/groove_form"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/right_no_color"/>
+
+    <com.example.ccxx.testtofd.TextButton
+        android:id="@+id/curvature_radius"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/right_no_color"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#726bf1"/>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/current_channel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/textview_left"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:text="当前通道\nTOFD1"/>
+
+    <TextView
+        android:id="@+id/gain"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/textview_left"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:text="增益(dB)\n55.0"/>
+
+    <TextView
+        android:id="@+id/sound_path"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/textview_left"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:text="声程(us)\n46.0"/>
+
+    <TextView
+        android:id="@+id/delay_time"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/textview_left"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:text="延时(us)\n10.0"/>
+
+    <TextView
+        android:id="@+id/sound_speed"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/textview_left"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:text="声速(m/s)\n5900.0"/>
+
+    <TextView
+        android:id="@+id/scan_depth"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/textview_left"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:text="扫查长度\n200.00(mm)"/>
+</LinearLayout>

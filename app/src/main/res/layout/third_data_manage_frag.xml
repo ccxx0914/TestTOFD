@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/data_browse"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="数据浏览"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:background="@drawable/third_no_left"/>
+
+    <Button
+        android:id="@+id/process_manage"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="工艺管理"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:background="@drawable/third_no_left"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#726bf1"/>
+</LinearLayout>
